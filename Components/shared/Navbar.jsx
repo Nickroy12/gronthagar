@@ -2,12 +2,13 @@ import React from 'react'
 import logo from '@/public/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import NavLink from '../Navlink'
 
 const Navbar = () => {
     const links = <>
-       <li><Link href={'/'}>Home</Link></li>
-       <li><Link href={'/'}>All Books</Link></li>
-       <li><Link href={'/'}>User Login</Link></li>
+       <li><NavLink href={'/'}>Home</NavLink></li>
+       <li><NavLink href={'/Book'}>All Books</NavLink></li>
+       <li><NavLink href={'/login'}>User Login</NavLink></li>
     </>
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -25,7 +26,7 @@ const Navbar = () => {
     <Link href={'/'}><Image src={logo} w={70} height={70} alt={logo} /></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className=" flex gap-5 btn-none px-1">
       {links}
     </ul>
   </div>
