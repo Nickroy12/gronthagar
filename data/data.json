@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "The Holy Quran",
+    "author": " ",
+    "description": "The central religious text of Islam, known for its spiritual guidance and classical Arabic prose.",
+    "category": "Religious",
+    "available_quantity": 50,
+    "image_url": "/books/alquran.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Secret of Secrets",
+    "author": "Dan Brown",
+    "description": "A thrilling mystery involving ancient symbols, secret societies, and scientific discovery.",
+    "category": "Thriller",
+    "available_quantity": 45,
+    "image_url": "/books/secrate.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Much Too Vulgar",
+    "author": "Viggy Parr Hampton",
+    "description": "A brash, unapologetic horror novel featuring anatomical themes and a dark, satirical edge.",
+    "category": "Horror",
+    "available_quantity": 22,
+    "image_url": "/books/much.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Samyabadi",
+    "author": "Kazi Nazrul Islam",
+    "description": "A revolutionary collection of poems advocating for human equality and social justice.",
+    "category": "Poetry",
+    "available_quantity": 40,
+    "image_url": "/books/sammobadi.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Choritrohin",
+    "author": "Sarat Chandra Chattopadhyay",
+    "description": "A landmark Bengali novel exploring morality and complex human relationships.",
+    "category": "Classic Fiction",
+    "available_quantity": 15,
+    "image_url": "/books/choritrohin.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Himu Remande",
+    "author": "Humayun Ahmed",
+    "description": "The anti-logic hero Himu finds himself in a police remand, handling it with his unique philosophy.",
+    "category": "Mystery/Fiction",
+    "available_quantity": 60,
+    "image_url": "/books/himu.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Pather Panchali",
+    "author": "Bibhutibhushan Bandyopadhyay",
+    "description": "A coming-of-age story of Apu and Durga in a small Bengali village, reflecting rural life.",
+    "category": "Classic Fiction",
+    "available_quantity": 10,
+    "image_url": "/books/pother.jpg"
+  },
+  {
+    "id": 8,
+    "title": "French Revolution: A History From Beginning to End",
+    "author": "Hourly History",
+    "description": "A detailed historical overview of the political upheaval that reshaped modern France.",
+    "category": "History",
+    "available_quantity": 20,
+    "image_url": "/books/france.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Bhagavad Gita As It Is",
+    "author": "A. C. Bhaktivedanta Swami Prabhupada",
+    "description": "A profound philosophical dialogue between Prince Arjuna and Lord Krishna on the battlefield.",
+    "category": "Religious",
+    "available_quantity": 30,
+    "image_url": "/books/gita.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Big Book of Dad Jokes",
+    "author": "Joe Kerz",
+    "description": "800 groan-inducing puns and riddles to keep the family laughing (or sighing).",
+    "category": "Humor",
+    "available_quantity": 100,
+    "image_url": "/books/dad.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Dying Detective",
+    "author": "Leif GW Persson",
+    "description": "A gripping mystery novel centered around a retired detective solving a cold case from his deathbed.",
+    "category": "Mystery",
+    "available_quantity": 18,
+    "image_url": "/books/dying.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Die Bibel",
+    "author": "Multiple Authors",
+    "description": "The German edition of the Holy Bible, the foundational sacred text of Christianity.",
+    "category": "Religious",
+    "available_quantity": 25,
+    "image_url": "/books/bible.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "J.K. Rowling",
+    "description": "The third installment in the world-renowned series, following Harry as he discovers the truth about Sirius Black.",
+    "category": "Fantasy",
+    "available_quantity": 65,
+    "image_url": "/books/hp.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Sophie's World",
+    "author": "Jostein Gaarder",
+    "description": "A novel that doubles as a comprehensive introduction to the history of Western philosophy.",
+    "category": "Philosophical Fiction",
+    "available_quantity": 30,
+    "image_url": "/books/sophis.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore",
+    "description": "A Nobel Prize-winning collection of poems translated by William Radice, exploring themes of devotion and nature.",
+    "category": "Poetry",
+    "available_quantity": 40,
+    "image_url": "/books/gitanjoli.jpg"
+  }
+]
