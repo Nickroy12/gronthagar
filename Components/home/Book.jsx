@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Book = () => {
   return (
-    <div className='w-10/11 mx-auto py-4 space-y-3'>
+    <div className='w-10/11 mx-auto py-8 space-y-3'>
          <h1 className="text-4xl text-center font-bold">Popular Books</h1>
        <div className="grid lg:grid-cols-4 gap-2">
               {data.slice(0, 4).map(book => (

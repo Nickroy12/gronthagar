@@ -5,7 +5,7 @@ const DetailsCard = ({ book }) => {
   if (!book) return <div>No Data Found</div>;
 
   return (
-    <div className="w-10/12 mx-auto shadow p-2 ">
+    <div className="w-10/12 mx-auto lg:h-[70vh] shadow p-2 ">
       <div className="lg:flex  gap-4">
         <div>
           <Image

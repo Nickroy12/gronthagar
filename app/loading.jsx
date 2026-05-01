@@ -1,8 +1,10 @@
-import React from 'react'
-
 const Loading = () => {
   return (
-    <div>loading</div>
+    <div className="flex h-screen justify-center items-center">
+      <p className="text-2xl font-semibold animate-pulse">
+        Loading...
+      </p>
+    </div>
   )
 }
 

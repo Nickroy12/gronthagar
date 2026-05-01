@@ -21,7 +21,7 @@ const Search = ({setFiltered}) => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <button onClick={handleSearch} className="btn bg-linear-to-r from-purple-500 to-purple-400">
+        <button onClick={handleSearch} className="btn bg-linear-to-r text-white from-purple-500 to-purple-400">
           Search
         </button>
       </div>
