@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "The Holy Quran",
-    "author": " ",
-    "description": "The central religious text of Islam, known for its spiritual guidance and classical Arabic prose.",
+    "author": null,
+    "description": "The central religious text of Islam, believed by Muslims to be the literal word of God as revealed to the Prophet Muhammad. It covers guidance on faith, morality, law, and spirituality, and is renowned for its linguistic beauty, depth of meaning, and influence on Islamic civilization.",
     "category": "Religious",
     "available_quantity": 50,
     "image_url": "/books/alquran.jpg"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "The Secret of Secrets",
     "author": "Dan Brown",
-    "description": "A thrilling mystery involving ancient symbols, secret societies, and scientific discovery.",
+    "description": "A fast-paced thriller filled with cryptic codes, ancient secrets, and hidden societies. The story follows a protagonist unraveling a conspiracy that blends science, religion, and history, keeping readers on edge with unexpected twists.",
     "category": "Thriller",
     "available_quantity": 45,
     "image_url": "/books/secrate.jpg"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Much Too Vulgar",
     "author": "Viggy Parr Hampton",
-    "description": "A brash, unapologetic horror novel featuring anatomical themes and a dark, satirical edge.",
+    "description": "A provocative horror novel that blends dark humor with disturbing imagery. It explores taboo themes through a satirical lens, challenging conventional boundaries while delivering a chilling and unsettling reading experience.",
     "category": "Horror",
     "available_quantity": 22,
     "image_url": "/books/much.jpg"
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "Samyabadi",
     "author": "Kazi Nazrul Islam",
-    "description": "A revolutionary collection of poems advocating for human equality and social justice.",
+    "description": "A powerful poetic work that champions equality, justice, and resistance against oppression. Through passionate verses, Nazrul calls for unity beyond class, religion, and caste, making it a timeless voice of rebellion and humanity.",
     "category": "Poetry",
     "available_quantity": 40,
     "image_url": "/books/sammobadi.jpg"
@@ -39,7 +39,7 @@
     "id": 5,
     "title": "Choritrohin",
     "author": "Sarat Chandra Chattopadhyay",
-    "description": "A landmark Bengali novel exploring morality and complex human relationships.",
+    "description": "A classic Bengali novel that deeply examines social stigma, morality, and human relationships. It portrays complex characters navigating love, betrayal, and societal judgment, making it one of the most thought-provoking works in Bengali literature.",
     "category": "Classic Fiction",
     "available_quantity": 15,
     "image_url": "/books/choritrohin.jpg"
@@ -48,7 +48,7 @@
     "id": 6,
     "title": "Himu Remande",
     "author": "Humayun Ahmed",
-    "description": "The anti-logic hero Himu finds himself in a police remand, handling it with his unique philosophy.",
+    "description": "Part of the iconic Himu series, this novel places the eccentric, philosophical character Himu in police custody. Despite the situation, Himu continues to challenge logic, authority, and societal norms with his mysterious worldview.",
     "category": "Mystery/Fiction",
     "available_quantity": 60,
     "image_url": "/books/himu.jpg"
@@ -57,7 +57,7 @@
     "id": 7,
     "title": "Pather Panchali",
     "author": "Bibhutibhushan Bandyopadhyay",
-    "description": "A coming-of-age story of Apu and Durga in a small Bengali village, reflecting rural life.",
+    "description": "A deeply emotional story of rural Bengal, following the childhood of Apu and his sister Durga. It beautifully captures poverty, dreams, family bonds, and the simplicity of village life with poetic realism.",
     "category": "Classic Fiction",
     "available_quantity": 10,
     "image_url": "/books/pother.jpg"
@@ -66,7 +66,7 @@
     "id": 8,
     "title": "French Revolution: A History From Beginning to End",
     "author": "Hourly History",
-    "description": "A detailed historical overview of the political upheaval that reshaped modern France.",
+    "description": "A concise yet informative account of the French Revolution, exploring its causes, major events, and long-term impact on politics and society. Ideal for readers seeking a clear understanding of one of history’s most transformative periods.",
     "category": "History",
     "available_quantity": 20,
     "image_url": "/books/france.jpg"
@@ -74,8 +74,8 @@
   {
     "id": 9,
     "title": "Bhagavad Gita As It Is",
-    "author": "A. C. Bhaktivedanta Swami Prabhupada",
-    "description": "A profound philosophical dialogue between Prince Arjuna and Lord Krishna on the battlefield.",
+    "author": null,
+    "description": "A sacred Hindu scripture presented as a dialogue between Prince Arjuna and Lord Krishna. It addresses duty, righteousness, and the nature of life, offering timeless spiritual wisdom and philosophical insight.",
     "category": "Religious",
     "available_quantity": 30,
     "image_url": "/books/gita.jpg"
@@ -84,7 +84,7 @@
     "id": 10,
     "title": "The Big Book of Dad Jokes",
     "author": "Joe Kerz",
-    "description": "800 groan-inducing puns and riddles to keep the family laughing (or sighing).",
+    "description": "A collection of hilariously cheesy jokes, puns, and one-liners that are so bad, they’re good. Perfect for light-hearted entertainment, family fun, or mastering the art of the classic ‘dad joke.’",
     "category": "Humor",
     "available_quantity": 100,
     "image_url": "/books/dad.jpg"
@@ -93,7 +93,7 @@
     "id": 11,
     "title": "The Dying Detective",
     "author": "Leif GW Persson",
-    "description": "A gripping mystery novel centered around a retired detective solving a cold case from his deathbed.",
+    "description": "A gripping crime novel about a retired detective determined to solve a decades-old case while on his deathbed. It combines suspense, introspection, and meticulous investigation.",
     "category": "Mystery",
     "available_quantity": 18,
     "image_url": "/books/dying.jpg"
@@ -101,8 +101,8 @@
   {
     "id": 12,
     "title": "Die Bibel",
-    "author": "Multiple Authors",
-    "description": "The German edition of the Holy Bible, the foundational sacred text of Christianity.",
+    "author": null,
+    "description": "The German edition of the Bible, a foundational text of Christianity. It contains the Old and New Testaments, offering teachings, stories, and spiritual guidance that have shaped Western culture and faith traditions.",
     "category": "Religious",
     "available_quantity": 25,
     "image_url": "/books/bible.jpg"
@@ -111,7 +111,7 @@
     "id": 13,
     "title": "Harry Potter and the Prisoner of Azkaban",
     "author": "J.K. Rowling",
-    "description": "The third installment in the world-renowned series, following Harry as he discovers the truth about Sirius Black.",
+    "description": "In this third installment of the Harry Potter series, Harry returns to Hogwarts while a dangerous prisoner escapes Azkaban prison. The story deepens the magical world with darker themes, emotional revelations, and unforgettable twists.",
     "category": "Fantasy",
     "available_quantity": 65,
     "image_url": "/books/hp.jpg"
@@ -120,7 +120,7 @@
     "id": 14,
     "title": "Sophie's World",
     "author": "Jostein Gaarder",
-    "description": "A novel that doubles as a comprehensive introduction to the history of Western philosophy.",
+    "description": "A unique novel that introduces readers to the history of Western philosophy through the story of a young girl receiving mysterious lessons. It blends fiction with deep philosophical exploration in an accessible way.",
     "category": "Philosophical Fiction",
     "available_quantity": 30,
     "image_url": "/books/sophis.jpg"
@@ -129,7 +129,7 @@
     "id": 15,
     "title": "Gitanjali",
     "author": "Rabindranath Tagore",
-    "description": "A Nobel Prize-winning collection of poems translated by William Radice, exploring themes of devotion and nature.",
+    "description": "A celebrated collection of poems that explores spirituality, nature, and human connection with the divine. Known for its lyrical beauty, it earned Tagore the Nobel Prize in Literature and remains a timeless masterpiece.",
     "category": "Poetry",
     "available_quantity": 40,
     "image_url": "/books/gitanjoli.jpg"
