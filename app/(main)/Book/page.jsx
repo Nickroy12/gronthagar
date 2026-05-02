@@ -4,6 +4,7 @@ import data from '@/data/data.json'
 import Card from '@/ui/Card'
 import Search from '@/ui/Search'
 import CategoryFilter from '@/ui/CategoryFilter'
+ 
 
 const BookPage = () => {
   const [filtered, setFiltered] = useState(data)
