@@ -20,11 +20,7 @@ const Navbar = () => {
       <li>
         <NavLink href="/Book">All Books</NavLink>
       </li>
-      {!user && (
-        <li>
-          <NavLink href="/Profile">User Login</NavLink>
-        </li>
-      )}
+
     </>
   );
 
