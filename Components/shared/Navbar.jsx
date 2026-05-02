@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import NavLink from "../Navlink";
 import { authClient } from "@/lib/auth-client";
+import defaultImg from "@/public/default.jpg";
+import { MdMenuBook } from "react-icons/md";
 
 const Navbar = () => {
   const { data: session, isPending } = authClient.useSession();
@@ -20,14 +22,15 @@ const Navbar = () => {
       </li>
       {!user && (
         <li>
-          <NavLink href="/login">User Login</NavLink>
+          <NavLink href="/Profile">User Login</NavLink>
         </li>
       )}
     </>
   );
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm px-4">
+      {/* LEFT */}
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,48 +38,56 @@ const Navbar = () => {
           </div>
 
           <ul
-            tabIndex={-1}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
+            tabIndex={0}
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow z-10"
           >
             {links}
           </ul>
         </div>
 
         <Link href="/">
-          <Image src={logo} width={120} height={120} alt="Website Logo" />
+          <Image src={logo} width={120} height={120} alt="Logo" />
         </Link>
       </div>
 
+      {/* CENTER */}
       <div className="navbar-center hidden lg:flex">
         <ul className="flex gap-5 px-1">{links}</ul>
       </div>
 
+      {/* RIGHT */}
       <div className="navbar-end">
         {isPending ? (
-          <div>Loading...</div>
+          <span className="loading loading-spinner loading-sm"></span>
         ) : user ? (
           <div className="flex items-center gap-3">
-            <span>{user.name}</span>
+            <span className="font-medium">{user.name}</span>
 
             <div className="dropdown dropdown-end">
-              <div tabIndex={0} role="button">
-                {user.image && (
-                  <Image
-                    src={user.image}
-                    width={40}
-                    height={40}
-                    alt="User Avatar"
-                    className="rounded-full border-4 border-purple-500 cursor-pointer"
-                  />
-                )}
+              <div
+                tabIndex={0}
+                role="button"
+                className="relative cursor-pointer"
+              >
+                {/* Avatar */}
+                <Image
+                  src={user.image || defaultImg}
+                  width={40}
+                  height={40}
+                  alt="User Avatar"
+                  className="rounded-full border-2 border-purple-500"
+                />
+
+                {/* Icon badge */}
+                <MdMenuBook className="absolute -bottom-1 -right-1 text-purple-500 bg-white rounded-full text-lg" />
               </div>
 
               <ul
                 tabIndex={0}
-                className="dropdown-content menu bg-base-100 rounded-box z-10 w-52 shadow"
+                className="menu dropdown-content bg-base-100 rounded-box w-52 mt-3 shadow z-10"
               >
                 <li>
-                  <Link href="/">Profile</Link>
+                  <Link href="/Profile">Profile</Link>
                 </li>
                 <li>
                   <button onClick={() => authClient.signOut()}>
@@ -89,7 +100,7 @@ const Navbar = () => {
         ) : (
           <Link
             href="/Login"
-            className="btn bg-linear-to-r from-purple-500 to-purple-400 rounded-4xl text-white"
+            className="btn bg-gradient-to-r from-purple-500 to-purple-400 text-white rounded-full"
           >
             Login
           </Link>

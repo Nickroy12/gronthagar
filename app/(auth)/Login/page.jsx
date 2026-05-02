@@ -5,10 +5,17 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
+import { FcGoogle } from 'react-icons/fc'
 import { toast } from 'react-toastify'
 
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false)
+
+  const handleGoogle = async() =>{
+  const data = await authClient.signIn.social({
+    provider: "google",
+  });
+  }
 
   const {
     register,
@@ -103,7 +110,10 @@ const LoginPage = () => {
           </button>
         </div>
       </form>
-
+       <div>
+        <h2 className='text-center'>OR</h2>
+        <button onClick={handleGoogle} className="btn w-full"> <FcGoogle />  Login with Google</button>
+       </div>
       <p className="text-white">
         If you don’t have an account{" "}
         <Link href="/Register" className="text-purple-600 font-medium">
