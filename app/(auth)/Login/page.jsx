@@ -112,7 +112,7 @@ const LoginPage = () => {
       </form>
        <div>
         <h2 className='text-center'>OR</h2>
-        <button onClick={handleGoogle} className="btn w-full"> <FcGoogle />  Login with Google</button>
+        <button onClick={handleGoogle} className="btn w-full"> <FcGoogle />Login with Google</button>
        </div>
       <p className="text-white">
         If you don’t have an account{" "}
