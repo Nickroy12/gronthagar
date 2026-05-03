@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📚 Gronthagar – The Largest Online Book Library
 
-## Getting Started
+🚀 Live: https://gronthagar-wine.vercel.app/
 
-First, run the development server:
+🌍 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Gronthagar is a modern online book library platform designed to make knowledge accessible anytime, anywhere.
+Users can explore a wide collection of books, but must log in to unlock detailed content — ensuring a personalized experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✨ Core Features
+🔐 Secure Authentication
+Login system powered by Better Auth
+📚 Book Library System
+Browse books across multiple categories
+🔒 Protected Routes
+Book details are only accessible after login
+🎞️ Modern UI/UX
+Smooth sliders with Swiper JS
+🔔 Smart Notifications
+Real-time feedback using React Toastify
+🧠 Concept Behind the Project
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+“Knowledge should be accessible — but also meaningful.”
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Gronthagar ensures:
 
-## Learn More
+Controlled access (login-based)
+Better user engagement
+Scalable digital library structure
+⚙️ Tech Stack
+⚛️ React / Next.js
+🎨 Tailwind CSS + DaisyUI
+🔐 Better Auth
+🔔 React Toastify
+🎞️ Swiper JS
+☁️ Vercel Deployment
+📸 UI Preview
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 Visit Live Site to Explore UI
+https://gronthagar-wine.vercel.app/

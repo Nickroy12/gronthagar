@@ -7,10 +7,10 @@ import SliderCard from '@/ui/SliderCard'
 
 const Banner = () => {
   return (
-    <div className='container mx-auto shadow rounded-4xl '>
-        <div className="lg:flex justify-between">
-           <div className=" flex flex-col justify-center items-center p-4 space-y-3">
-            <h1 className='lg:text-5xl text-3xl font-bold bg-gradient-to-r from-purple-500 to-purple-400 bg-clip-text text-transparent'>Find Your Next Read</h1>
+    <div className='container mx-auto shadow rounded-4xl bg-[url(/bg.png)] bg-no-repeat bg-cover '>
+        <div className="lg:flex justify-between ">
+           <div className=" flex flex-col justify-center items-center p-4 space-y-5">
+            <h1 className='lg:text-5xl text-3xl font-bold text-black'>Find Your Next Read</h1>
           <Link href={'/Book'} className="btn bg-linear-to-r from-purple-500 to-purple-400 rounded-4xl text-white">Browse Now</Link>
            </div>
            <div className="flex justify-center">
