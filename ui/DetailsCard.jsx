@@ -1,8 +1,13 @@
 import Image from "next/image";
 import React from "react";
+import { toast } from "react-toastify";
 
 const DetailsCard = ({ book }) => {
+
   if (!book) return <div>No Data Found</div>;
+  const borrowBook = () =>{
+    toast.success('Your Borrow successful !')
+  }
 
   return (
     <div className="w-10/12 mx-auto lg:h-[70vh] shadow p-2 ">
@@ -32,7 +37,7 @@ const DetailsCard = ({ book }) => {
           <p>{book.description}</p>
           <div className="flex justify-between">
             <h3 className="text-xl text-gray-600"> In stock <span className="text-xl font-bold text-purple-500">{book.available_quantity}</span></h3>
-            <button className="btn rounded-4xl bg-linear-to-r from-purple-500 to-purple-400 text-white">Borrow Now </button>
+            <button className="btn rounded-4xl bg-linear-to-r from-purple-500 to-purple-400 text-white" onClick={borrowBook} >Borrow Now </button>
           </div>
         </div>
       </div>
