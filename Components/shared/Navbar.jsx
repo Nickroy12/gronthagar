@@ -7,10 +7,21 @@ import NavLink from "../Navlink";
 import { authClient } from "@/lib/auth-client";
 import defaultImg from "@/public/default.jpg";
 import { MdMenuBook } from "react-icons/md";
+import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
+
 
 const Navbar = () => {
   const { data: session, isPending } = authClient.useSession();
   const user = session?.user;
+  const router = useRouter()
+
+  const handleLog = async() =>{
+       authClient.signOut()
+       router.push("/Login")
+       router.refresh()
+       toast.error('You recently Logout')
+  }
 
   const links = (
     <>
@@ -86,7 +97,7 @@ const Navbar = () => {
                   <Link href="/Profile">Profile</Link>
                 </li>
                 <li>
-                  <button onClick={() => authClient.signOut()}>
+                  <button onClick={handleLog}>
                     Logout
                   </button>
                 </li>

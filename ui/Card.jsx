@@ -10,15 +10,14 @@ const Card = ({ book }) => {
           <Image
             src={book.image_url}
             alt={book.title}
-           width={150}
-           height={150}
+         fill
             className="object-cover"
           />
         </figure>
 
         <div className="card-body flex flex-col text-white bg-gradient-to-r from-purple-500 to-purple-400">
 
-          <div className="flex justify-between items-start gap-2">
+          <div className="flex justify-between items-start  gap-2">
             <h2 className="card-title line-clamp-1">
               {book.title}
             </h2>
